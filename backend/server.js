@@ -2,6 +2,9 @@ require("dotenv").config();
 
 
 const teamRoutes = require('./routes/teamRoutes.js');
+const solutionsRoutes = require('./routes/solutionsRoutes.js');
+const jobpostsRoutes = require('./routes/jobpostsRoutes.js');
+const faqsRoutes = require('./routes/faqsRoutes.js');
 const categoryRoutes = require('./routes/categoryRoutes.js');
 const testimonialRoutes = require('./routes/testimonialRoutes.js');
 const galleryRoutes = require('./routes/galleryRoutes.js');
@@ -42,5 +45,8 @@ app.use("/api/gallery", galleryRoutes);
 app.use("/api/testimonial", testimonialRoutes);
 app.use("/api/team", teamRoutes);
 app.use("/api/category", categoryRoutes);
+app.use("/api/faqs", faqsRoutes);
+app.use("/api/jobposts", jobpostsRoutes);
+app.use("/api/solutions", solutionsRoutes);
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 }).catch(err => console.error("DB Connection Error:", err));
