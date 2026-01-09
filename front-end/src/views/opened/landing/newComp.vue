@@ -30,12 +30,12 @@
 
 
 
-
+<!-- 
             <div class="absolute top-4 left-4 bg-orange-500 text-white px-3 py-1 rounded-lg z-10">
               <span class="text-[10px] font-black uppercase tracking-widest">
                 {{ item.Category.name }}
               </span>
-            </div>
+            </div> -->
           </div>
 
           <div class="p-6 flex-grow flex flex-col">

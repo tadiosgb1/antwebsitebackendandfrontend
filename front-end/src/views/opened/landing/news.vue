@@ -38,11 +38,11 @@
                 :alt="item.title" 
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div class="absolute top-4 left-4 bg-orange-500 text-white px-3 py-1 rounded-lg shadow-lg">
+              <!-- <div class="absolute top-4 left-4 bg-orange-500 text-white px-3 py-1 rounded-lg shadow-lg">
                 <span class="text-[10px] font-black uppercase tracking-widest">
                   {{ item.Category.name }}
                 </span>
-              </div>
+              </div> -->
             </div>
 
             <div class="p-8 flex-grow flex flex-col">
